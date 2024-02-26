@@ -1,0 +1,271 @@
+
+@media screen and (max-width:900px) {
+    
+    body {
+            background-color: #AAB2D5;
+        }
+
+
+    #textoCifrar h2{
+        margin: 20px;
+    }
+
+    #textoCifrar img{
+        width: 25%;
+    }
+
+    #textoEncriptar{
+        width: 320px;
+        height: 250px;
+        margin-left: 15px;
+    }
+
+    #textoNoEncontrado img{
+        visibility: hidden;
+    }
+    
+    #textoEncriptado {
+        width: 320px;
+        height: 250px;
+        margin-left: 15px;
+        margin-top: 120px;
+    }
+
+    #movil {
+        border-color: #052051;
+        border-width: 3px;
+        border-style: solid;
+        margin-top: -180px;
+        border-radius: 10px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    
+        /*
+    Botones
+    */
+    
+        .btn {
+            position: absolute;
+            top: 70%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            width: fit-content;
+            height: auto;
+            border: none;
+            color: black;
+            padding: 14px 28px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 3%;
+        }
+    
+        .button1 {
+            width: 150px;
+            height: 70px;
+            background-color: #052051;
+            border: 5px solid #CED4DA;
+            margin: 100px;
+            color: #CED4DA;
+            font-size: 20px;
+        }
+    
+        .button1:hover {
+            background: #CED4DA;
+            color: #052051;
+        }
+    
+        .button2 {
+            width: 150px;
+            height: 60px;
+            background-color: #CED4DA;
+            border: 5px solid #052051;
+            margin: -90px;
+            color: #052051;
+            font-size: 20px;
+        }
+    
+        .button2:hover {
+            background: #052051;
+            color: #CED4DA;
+        }
+    
+        .copiar {
+            width: 150px;
+            height: 70px;
+            background-color: #052051;
+            border: 5px solid #CED4DA;
+            margin: 50px;
+            color: #CED4DA;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-left: 25%;
+        }
+    
+        .copiar:hover {
+            background: #CED4DA;
+            color: #052051;
+        }
+    
+}
+
+@media (min-width: 900px) and (max-width: 2000px) {
+    body {
+            display: flex;
+            background-color: #AAB2D5;
+            height: 100vh;
+        }
+    
+        .contenedor1 {
+            width: 60%;
+            margin: 1% 4%;
+        }
+    
+        .contenedor2 {
+            width: 29%;
+            margin: 1% 1%;
+        }
+    
+        #textoCifrar {
+            border-radius: 5px;
+            float: left;
+        }
+    
+        #textoCifrar h2 {
+            color: #052051;
+            font-size: 28px;
+            text-align: center;
+        }
+    
+        #textoCifrar textarea {
+            width: 90%;
+            height: 59%;
+            border: none;
+            background-color: #e9ecf827;
+            box-shadow: 0px 0px 300px 10px rgba(5, 32, 81, 0.82);
+            resize: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            padding-left: 1%;
+            padding-top: 1%;
+        }
+    
+        ::placeholder {
+            color: #052051;
+            font-size: 25px;
+            opacity: 40%;
+        }
+    
+    
+        /*
+    Espacio sin ningun texto
+    */
+    
+        #textoNoEncontrado {
+            width: 30%;
+            height: 75%;
+            border-radius: 5px;
+            float: right;
+            position: relative;
+            top: 10px;
+            font-size: 20px;
+            margin-left: 150px;
+            margin-right: 150px;
+            font-size: 25px;
+            background-color: #EFF1FA;
+            padding: 70px;
+    
+        }
+    
+        /*
+    Espacio para cifrado
+    */
+    
+        #textoCifrado {
+            border-radius: 5px;
+            float: left;
+        }
+    
+    
+        #textoCifrado textarea {
+            width: 92%;
+            height: 59%;
+            border: none;
+            background-color: #e9ecf827;
+            box-shadow: 0px 0px 300px 10px rgba(5, 32, 81, 0.82);
+            resize: none;
+            border-top: 100px;
+            margin-top: 21%;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            padding-left: 1%;
+            padding-top: 1%;
+        }
+    
+        /*
+    Botones
+    */
+    
+        .btn {
+            position: absolute;
+            top: 90%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            width: fit-content;
+            height: auto;
+            border: none;
+            color: black;
+            padding: 14px 28px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-left: 3%;
+        }
+    
+        .button1 {
+            width: 200px;
+            height: 70px;
+            background-color: #052051;
+            border: 5px solid #CED4DA;
+            margin: 50px;
+            color: #CED4DA;
+            font-size: 20px;
+        }
+    
+        .button1:hover {
+            background: #CED4DA;
+            color: #052051;
+        }
+    
+        .button2 {
+            width: 200px;
+            height: 70px;
+            background-color: #CED4DA;
+            border: 5px solid #052051;
+            margin: 50px;
+            color: #052051;
+            font-size: 20px;
+        }
+    
+        .button2:hover {
+            background: #052051;
+            color: #CED4DA;
+        }
+    
+        .copiar {
+            width: 200px;
+            height: 70px;
+            background-color: #052051;
+            border: 5px solid #CED4DA;
+            margin: 50px;
+            color: #CED4DA;
+            font-size: 20px;
+            margin-top: 62px;
+            margin-left: 33%;
+        }
+    
+        .copiar:hover {
+            background: #CED4DA;
+            color: #052051;
+        }
+}

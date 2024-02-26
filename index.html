@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Encriptador de texto - Alura Challenges ONE</title>
+  </head>
+
+  <body>
+    <div id="textoCifrar" class="contenedor1">
+      <h1><img src="src/Logo.png" alt="Logo Alura" /></h1>
+      <h2>Ingresa el texto aquí</h2>
+      <textarea id="textoEncriptar" placeholder="Ingrese texto aquí"></textarea>
+    </div>
+    <div class="btn">
+      <button id="encriptar" class="button1" onclick="todos()">
+        Encriptar
+      </button>
+      <button class="button2" onclick="desencriptarTexto()">
+        Desencriptar
+      </button>
+    </div>
+    <div id="textoNoEncontrado" class="contenedor2">
+      
+      <img src="src/Muñeco.png" alt="Ningun mensaje encontrado" />
+      <section id="movil">
+      <p><b>Ningun mensaje fue encontrado</b></p>
+      <p>Ingrese el texto que desees encriptar o desencriptar</p>
+      </section>
+    </div>
+
+    <div id="textoCifrado" class="contenedor1" style="display: none">
+      <section>
+      <textarea id="textoEncriptado">Texto cifrado</textarea>
+      <button class="copiar" onclick="copiar()">Copiar</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
