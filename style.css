@@ -107,6 +107,11 @@
             background: #CED4DA;
             color: #052051;
         }
+
+    #rodapie{
+        font-size: 30px;
+        color: aqua;
+    }
     
 }
 
@@ -268,4 +273,11 @@
             background: #CED4DA;
             color: #052051;
         }
+
+         #rodapie {
+            margin-top: -6%;
+            font-size: 18px;
+            
+            
+         }
 }
