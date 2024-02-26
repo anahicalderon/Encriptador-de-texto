@@ -109,8 +109,8 @@
         }
 
     #rodapie{
-        font-size: 30px;
-        color: aqua;
+        font-size: 15px;
+        padding-top: 20px;
     }
     
 }
@@ -274,10 +274,12 @@
             color: #052051;
         }
 
-         #rodapie {
-            margin-top: -6%;
-            font-size: 18px;
-            
-            
-         }
+        #rodapie {
+            font-size: 15px;
+            padding-top: 48%;
+            display: inline;
+            padding-right: 29px;
+            position: absolute;
+            padding-left: 80px;
+        }
 }
